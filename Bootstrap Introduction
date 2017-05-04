@@ -1,23 +1,41 @@
 What is Bootstrap
+什么是Bootstrap
 
 Bootstrap is a powerful front-end framework for faster and easier web development. It includes HTML and CSS based design templates for common user interface components like Typography, Forms, Buttons, Tables, Navigations, Dropdowns, Alerts, Modals, Tabs, Accordion, Carousel and many other as well as optional JavaScript extensions.
+Bootstrap是快速，简单却又强大的前端开发框架。它包括了一整套使用Html与Css构建的用户组件，例如Typography, Forms, Buttons, Tables, Navigations, Dropdowns, Alerts, Modals, Tabs, Accordion, Carousel等等，除此以外，还有一些Javascript的扩展功能
 
 Bootstrap also gives you ability to create responsive layout with much less efforts.
+Bootstrap也支持相应式的设计提，并且使用起来也毫不费劲
 
 Advantages of Bootstrap
+Bootstrap的高级特性
 
 The biggest advantage of using Bootstrap is that it comes with free set of tools for creating flexible and responsive web layouts as well as common interface components.
+使用Bootstrap构建灵活的响应式布局是Bootstrap的最大的特点，而且使用起来就如同其他的组件一样
 
 Additionally, using the Bootstrap data APIs you can create advanced interface components like Scrollspy and Typeaheads without writing a single line of JavaScript.
+另外，也可以用Bootstrap的数据接口来构建更为复杂的高级组件，就如同Scrollspy and Typeaheads那样，甚至都不需要写一行代码
 
 Here are some more advantages, why one should opt for Bootstrap:
+下面是一些更加详细的特点，解释了为什么要选择Bootstrap
 
-    Save lots of time — You can save lots of time and efforts using the Bootstrap predefined design templates and classes and concentrate on other development work.
-    Responsive features — Using Bootstrap you can easily create responsive designs. Bootstrap responsive features make your web pages to appear more appropriately on different devices and screen resolutions without any change in markup.
-    Consistent design — All Bootstrap components share the same design templates and styles through a central library, so that the designs and layouts of your web pages are consistent throughout your development.
-    Easy to use — Bootstrap is very easy to use. Anybody with the basic working knowledge of HTML and CSS can start development with Bootstrap.
-    Compatible with browsers — Bootstrap is created with modern browsers in mind and it is compatible with all modern browsers such as Mozilla Firefox, Google Chrome, Safari, Internet Explorer, and Opera.
-    Open Source — And the best part is, it is completely free to download and use.
-    
-    
-    Note:Some CSS3 properties such as properties for rounded corners, gradients and shadows are used by the Bootstrap but not supported in older versions of the web browsers especially Internet Explorer 8 and earlier.
+# Save lots of time — You can save lots of time and efforts using the Bootstrap predefined design templates and classes and concentrate on other development work.
+# 节约大量的时间 - 使用Bootstrap可以节约你的时间成本，从而将注意力放在其他的任务中
+
+# Responsive features — Using Bootstrap you can easily create responsive designs. Bootstrap responsive features make your web pages to appear more appropriately on different devices and screen resolutions without any change in markup.
+# 相应式特性 - 使用Bootstrap, 可以轻松的构建相应式设计。从而使用其构建的web页面，能够支持众多的设备与屏幕大小，而这一切却并不需要任何的改动。
+
+# Consistent design — All Bootstrap components share the same design templates and styles through a central library, so that the designs and layouts of your web pages are consistent throughout your development.
+# 一致设计 - 所有的Bootstrap组件都基于核心库的设计模板与样式，从而使你的web页面开起来风格更加的统一
+
+# Easy to use — Bootstrap is very easy to use. Anybody with the basic working knowledge of HTML and CSS can start development with Bootstrap.
+# 容易使用 - 使用Bootstrap是非常容易的，只需要了解Html与CSS就行
+
+# Compatible with browsers — Bootstrap is created with modern browsers in mind and it is compatible with all modern browsers such as Mozilla Firefox, Google Chrome, Safari, Internet Explorer, and Opera.
+# 兼容众多浏览器 - Bootstrap基于主流的浏览器设计的，但它同时兼容其它的浏览器例如Mozilla Firefox, Google Chrome, Safari, Internet Explorer, and Opera
+
+# Open Source — And the best part is, it is completely free to download and use.
+# 开放代码 - 最重要的特性之一，完全的免费
+
+Note:Some CSS3 properties such as properties for rounded corners, gradients and shadows are used by the Bootstrap but not supported in older versions of the web browsers especially Internet Explorer 8 and earlier.
+注意：一些CSS3的特性例如rounded corners, gradients and shadows虽然Bootstrap也使用了，但是不能够支持一些老版本的浏览器，例如IE8或者更早
