@@ -1,0 +1,23 @@
+What is Bootstrap
+
+Bootstrap is a powerful front-end framework for faster and easier web development. It includes HTML and CSS based design templates for common user interface components like Typography, Forms, Buttons, Tables, Navigations, Dropdowns, Alerts, Modals, Tabs, Accordion, Carousel and many other as well as optional JavaScript extensions.
+
+Bootstrap also gives you ability to create responsive layout with much less efforts.
+
+Advantages of Bootstrap
+
+The biggest advantage of using Bootstrap is that it comes with free set of tools for creating flexible and responsive web layouts as well as common interface components.
+
+Additionally, using the Bootstrap data APIs you can create advanced interface components like Scrollspy and Typeaheads without writing a single line of JavaScript.
+
+Here are some more advantages, why one should opt for Bootstrap:
+
+    Save lots of time — You can save lots of time and efforts using the Bootstrap predefined design templates and classes and concentrate on other development work.
+    Responsive features — Using Bootstrap you can easily create responsive designs. Bootstrap responsive features make your web pages to appear more appropriately on different devices and screen resolutions without any change in markup.
+    Consistent design — All Bootstrap components share the same design templates and styles through a central library, so that the designs and layouts of your web pages are consistent throughout your development.
+    Easy to use — Bootstrap is very easy to use. Anybody with the basic working knowledge of HTML and CSS can start development with Bootstrap.
+    Compatible with browsers — Bootstrap is created with modern browsers in mind and it is compatible with all modern browsers such as Mozilla Firefox, Google Chrome, Safari, Internet Explorer, and Opera.
+    Open Source — And the best part is, it is completely free to download and use.
+    
+    
+    Note:Some CSS3 properties such as properties for rounded corners, gradients and shadows are used by the Bootstrap but not supported in older versions of the web browsers especially Internet Explorer 8 and earlier.
