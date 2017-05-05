@@ -1,0 +1,174 @@
+Getting Started with Bootstrap
+
+Here, you will learn how easy it is to create a web page using Bootstrap. Before begin, be sure to have a code editor and some working knowledge of HTML and CSS.
+
+If you're just starting out in web development, start learning from here »
+
+OK, let's get straight into it.
+
+Downloading the Bootstrap Files
+
+There are two versions available for download, compiled Bootstrap and Bootstrap source files. You can download Bootstrap files from here.
+
+Compiled download contain compiled and minified version of CSS and JavaScript files as well as icons in font format for faster and easier web development, while the source contain original source files for all CSS and JavaScript, along with a local copy of the docs.
+
+For the purpose of better understanding we'll focus on the compiled Bootstrap files. It saves your time because you don't have to bother every time including separate files for individual functionality. It will also increase the performance of your website and saves the precious bandwidth when you decided to move your site on production because of lesser HTTP request and download size since files are compiled and minified.
+
+Understanding the File Structure
+
+Once downloaded the compiled Bootstrap, unzip the compressed folder to see the structure. You'll find the following file structure and contents.
+
+bootstrap/
+|—— css/
+|   |—— bootstrap.css
+|   |—— bootstrap.min.css
+|   |—— bootstrap-theme.css
+|   |—— bootstrap-theme.min.css
+|—— js/
+|   |—— bootstrap.js
+|   |—— bootstrap.min.js
+|—— fonts/
+|   |—— glyphicons-halflings-regular.eot
+|   |—— glyphicons-halflings-regular.svg
+|   |—— glyphicons-halflings-regular.ttf
+|   |—— glyphicons-halflings-regular.woff
+
+As you can see compiled version of Bootstrap provides compiled CSS and JS files (bootstrap.*), as well as compiled and minified CSS and JS (bootstrap.min.*).
+
+There are four font files (glyphicons-halflings-regular.*) inside the fonts folder. These fonts file includes more than 250 icons from the Glyphicon Halflings set.
+
+Tip:This is the most basic form of Bootstrap for quick usage in any web project. Please note that Bootstrap's JavaScript plugins require jQuery to be included. You can download the latest version of jQuery form here https://jquery.com/download/
+
+Creating Your First Web Page with Bootstrap
+
+So far you have understood the structure and the purposes of Bootstrap files, now it's time to put Bootstrap into real use. In this section, we'll create a basic Bootstrap template that includes everything we mentioned in the file structure.
+
+Let's walk through the following steps. At the end of the tutorial, you will have made an HTML file that displays "Hello world" message in your web browser.
+Step 1: Creating a Basic HTML file
+
+Open up your favorite code editor and create a new HTML file. Start with an empty window and type the following code and save it as "basic.html" on your desktop.
+
+
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Basic HTML File</title>
+
+    </head>
+
+    <body>
+
+        <h1>Hello, world!</h1>
+
+    </body>
+
+    </html>
+
+Tip:Always include the viewport <meta> tag inside the <head> section of your document to enable touch zooming and ensure proper rendering on mobile devices. Also include the X-UA-Compatible meta tag with edge mode, which tells the Internet Explorer to display the webpage in the highest mode available.
+
+Step 2: Making this HTML File a Bootstrap Template
+
+To make this HTML file a Bootstrap template, just include the appropriate Bootstrap CSS and JS files. You should include JavaScript files at the bottom of the page — before closing of the <body> tag (i.e. </body>) to improve the performance of your web pages.
+
+
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Basic Bootstrap Template</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+        <!-- Optional Bootstrap theme -->
+
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    </head>
+
+    <body>
+
+        <h1>Hello, world!</h1>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>
+
+And we're all set! after adding the Bootstrap's CSS and JS files and the required jQuery library, we can begin to develop any site or application with Bootstrap framework.
+Step 3: Saving the file
+
+Now save the file on your desktop as "bootstrap-template.html".
+
+
+
+Note:It is important that the extension .html is specified — some text editors, such as Notepad, will automatically save it as .txt otherwise.
+
+To open the file in a browser. Navigate to your file then double click on it. It will open in your default Web browser. (If it does not, open your browser and drag the file to it.)
+
+Including Bootstrap's Files via CDN
+
+You can also include the Bootstrap's CSS and JavaScript files as well as the jQuery library JavaScript file in your document using the freely available CDN (Content Delivery Network) links, if you don't want to download and host the Bootstrap or jQuery yourself.
+
+CDNs can offer a performance benefit by reducing the loading time, because they are hosting the Bootstrap's files on multiple servers spread across the globe and when a user requests the file, it will be served from the server nearest to them.
+
+
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Basic Bootstrap Template</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional Bootstrap theme -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+
+        <h1>Hello, world!</h1>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>
+
+In the above example, we've included the compiled and minified version of Bootstrap's CSS and JavaScript files as well as the necessary jQuery library using the CDN links. You'll also find these CDN links in most of the practice examples code throughout this site.
+
+The attributes integrity and crossorigin have been added to Bootstrap CDN to implement Subresource Integrity (SRI). It is a security feature that enables you to mitigate the risk of attacks originating from compromised CDNs, by ensuring that the files your website fetches (from a CDN or anywhere) have been delivered without unexpected manipulation. It works by allowing you to provide a cryptographic hash that a fetched file must match.
+
+Tip:If the visitor to your site has already downloaded the Bootstrap's files from the same CDN while visiting the other sites, it will be loaded from the browser's cache instead of re-downloading, which leads to faster loading time.
